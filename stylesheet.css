@@ -4,11 +4,12 @@
     font-family: Arial, Helvetica, sans-serif;
 	text-align: left;
 	padding-left: 160px;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 	/*background-color: wheat;*/
 	letter-spacing: 0.5em;
 	line-height: 0.8;
+	text-shadow: 0 0 3px saddlebrown;
 }
 #heend {
 	letter-spacing: .1em;
@@ -16,25 +17,57 @@
 	color: saddlebrown;
 	font-weight: bold;
 	font-size: 130px;
+	text-shadow: 2px 2px 5px saddlebrown;
 }
 #fonas {
 	background-color: wheat;
 	height: 500px;
+}	
+
+#backg {
+	background: linear-gradient(to right, wheat, white);
 }
+
+nav ul li a {
+		border: 1px solid saddlebrown;	
+		display: block;
+		width: 120px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14pt;		
+		padding: 10px;	
+		border-radius: 15px;		
+		text-decoration: none;
+		text-align: center;
+		font-weight: lighter;
+		color: saddlebrown;
+		text-transform: uppercase;
+		background: linear-gradient(to right, wheat, white);
+		text-shadow: 1px 1px 3px saddlebrown;
+} 
+
+#myrotate {
+    transform: rotate(5deg); 
+} 
+
 nav ul li {
-	display: inline; 
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 22px;
-	padding: 5px;
+	float: left;
+	list-style-type: none;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
-
+nav ul {
+    margin: 0;
+    padding: 0;
+}
 nav {
-	border: 1px solid darkred;
-	/*background-color: wheat; */
-	width: 960px;
-	clear: both;
-
+/*	border: 2px solid darkred;
+	background-color: wheat; */
+	width: 100%;
+	display: block;
+	overflow: hidden;
 }
+
 .boldd {
 	font-weight: bold;
 }
@@ -72,11 +105,15 @@ table tr td img {
 #content {
 	float: left;
 	width: 660px;
+	border-right-style: dotted;
+	border-color: saddlebrown;
 }
 #rightcol {
+	padding-left: 15px;
 	float: left;
-	width: 280px;
-	margin-left: 20px;	
+	width: 260px;
+	margin-left: 20px;
+	background: linear-gradient(wheat, white);
 }
 
 section {
