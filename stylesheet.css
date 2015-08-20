@@ -6,7 +6,6 @@
 	padding-left: 160px;
 	padding-top: 20px;
 	padding-bottom: 10px;
-	/*background-color: wheat;*/
 	letter-spacing: 0.5em;
 	line-height: 0.8;
 	text-shadow: 0 0 3px saddlebrown;
@@ -84,7 +83,6 @@ table tr td img {
 }
 #tabble {
 	position: static;
-/*	border: 1px solid darkred; */
 	float: left;	
 	width: 960px;
 }
