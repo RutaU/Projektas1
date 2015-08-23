@@ -23,10 +23,6 @@
 	height: 500px;
 }	
 
-#backg {
-	background: linear-gradient(to right, wheat, white);
-}
-
 nav ul li a {
 		border: 1px solid saddlebrown;	
 		display: block;
@@ -94,6 +90,9 @@ table tr td img {
 	background-repeat: repeat-x;
 	margin-top: 15px;
 }
+#backg {
+	background: linear-gradient(to right, wheat, white);
+}
 
 #bbody {
 	width: 960px;
@@ -114,6 +113,6 @@ table tr td img {
 	background: linear-gradient(wheat, white);
 }
 
-section {
+article {
 	padding-right: 10px;
 }
