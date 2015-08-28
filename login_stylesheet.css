@@ -3,18 +3,13 @@
 }
 .main {
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: silver;
-	width: 400px;
-	margin-left: 100px;
+	max-width: 600px;
+	margin: auto;
 }
 
 .registration_form {
 	padding: 10px;
-}
-.picture {
-	align-content: center;
-	max-width: 100%;
-    height: auto;
+	background-color: silver;
 }
 .registration {
 	font-family: Arial, Helvetica, sans-serif;
@@ -23,40 +18,51 @@
 }
 .userData {
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold; 
-	font-size: 14px;	
+	font-weight: 500; 
+	font-size: 16px;	
 }
 #username, #psw, #email {
 	padding: 10px;
 	border: 1px dotted saddlebrown;
 }
-div.img {
-	max-width: 100%;
+.button {
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold; 
+	font-size: 18px;
+}
+
+.picture {
+	max-width: 600px;
+}
+div img {
+	width: 100%;
 	height: auto;	
 }
 
-/* Small screens*/
-@media only screen and (max-width: 640px) { } 
-	/* Smartphones (landscape) ----------- */
-	@media only screen and (min-width : 321px) { }
-	/* Smartphones (portrait) ----------- */
-	@media only screen and (max-width : 320px) { }
-	/*iPhone*/
-	@media screen and (max-width: 480px) { }
 
+/* Small screens*/
+/*iPhone*/
+@media only screen and (max-width: 460px) {
+	body {
+		background-color:yellowgreen;
+		}
+}
+@media only screen and (max-width: 380px) {
+  div img { 
+    display:none; 
+  }
+}
 /* Medium screens*/
-@media only screen and (min-width: 641px) { } 
-@media only screen and (min-width: 641px) and (max-width: 1024px) { }
-	/*iPad*/
-	@media screen and (min-width: 768px) { }
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+	body {
+		background-color: blanchedalmond;
+	}
+ }
 	
 /* Large screens*/
-@media only screen and (min-width: 1025px) { }
-@media only screen and (min-width: 1025px) and (max-width: 1440px) { }
-
-/* XLarge screens*/
-@media only screen and (min-width: 1441px) { }
-@media only screen and (min-width: 1441px) and (max-width: 1920px) { }
-
-/* XXLarge screens*/
-@media only screen and (min-width: 1921px) { }
+@media only screen and (min-width: 1025px) and (max-width: 1440px) { 
+	.main {
+		border: 5px dotted red;
+	}
+}
