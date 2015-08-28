@@ -1,2 +1,1 @@
-# Projektas1
-Firts web application about culinary
+Registration Form and Responsive Web Design
